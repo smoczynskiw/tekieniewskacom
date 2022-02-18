@@ -1,8 +1,8 @@
 const style = {
   fontFamily: 'Morganite-SemiBold',
-  // fontSize: '210pt',
+  fontSize: '216pt',
   fontWeight: '400',
-  fontSize: '233.5pt',
+  // fontSize: '233.5pt',
   letterSpacing: '5.3px',
   marginRight: '-5px',
   textTransform: 'uppercase',

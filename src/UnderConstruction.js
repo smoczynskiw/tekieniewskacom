@@ -5,7 +5,7 @@ import SeeMyWork from './components/SeeMyWork/SeeMyWork'
 import Footer from './components/Footer/Footer'
 
 const style = {
-  margin: '0 99px',
+  margin: '0 5.1vw',
   height: '100vh',
   display: 'flex',
   flexDirection: 'column',
