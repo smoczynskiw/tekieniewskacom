@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e745b01e.css",
+    "main.js": "/static/js/main.a5425663.js",
+    "static/js/787.239a567b.chunk.js": "/static/js/787.239a567b.chunk.js",
+    "static/media/WorkSans-SemiBold.ttf": "/static/media/WorkSans-SemiBold.1e98db4eb705b586728e.ttf",
+    "static/media/WorkSans-Regular.ttf": "/static/media/WorkSans-Regular.bb287b894b27372d8ea7.ttf",
+    "static/media/Morganite-SemiBold.ttf": "/static/media/Morganite-SemiBold.deee20f0e8cee7d61130.ttf",
+    "static/media/backgroundMain.png": "/static/media/backgroundMain.e3f09c1bb0e2ec2996d1.png",
+    "index.html": "/index.html",
+    "main.e745b01e.css.map": "/static/css/main.e745b01e.css.map",
+    "main.a5425663.js.map": "/static/js/main.a5425663.js.map",
+    "787.239a567b.chunk.js.map": "/static/js/787.239a567b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e745b01e.css",
+    "static/js/main.a5425663.js"
+  ]
+}
