@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'WorkSans-SemiBold';
+  src: local('WorkSans-SemiBold'), url(./fonts/WorkSans-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Morganite-SemiBold';
+  src: local('Morganite-SemiBold'), url(./fonts/Morganite-SemiBold.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'WorkSans-Regular';
+  src: local('WorkSans-Regular'), url(./fonts/WorkSans-Regular.ttf) format('truetype')
+}
