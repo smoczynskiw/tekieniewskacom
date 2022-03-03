@@ -10,12 +10,12 @@ const style = {
   width: '650px'
 }
 
-function SeeMyWork() {
+function SeeMyWork({language}) {
   return (
     <div style={style}>
-      <Text />
+      <Text language={language}/>
       <Arrow />
-      <CTA />
+      <CTA language={language}/>
     </div> 
   )
 }

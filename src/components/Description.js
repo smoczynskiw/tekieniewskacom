@@ -1,8 +1,4 @@
-const textBold = `Hi there! My name is Gosia Tekieniewska, `
-
-const text = `I'm a graphic designer and illustrator. 
-I'm still working to make this website available. 
-You'll find here: my portfolio, more info about me and about how I can help you design-wise.`
+import descriptionCopy from '../copy/descriptionCopy'
 
 const containerStyle = {
   height: '15%',
@@ -19,7 +15,10 @@ const textStyle = {
   borderBottom: '1px solid #191919'
 }
 
-function Description() {
+function Description({ language }) {
+  const textBold = descriptionCopy.bold[language]
+  const text = descriptionCopy.main[language]
+  
   return (
     <div style={containerStyle}>
       <p style={textStyle}><strong>{textBold}</strong>{text}</p>

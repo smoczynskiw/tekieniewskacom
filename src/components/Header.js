@@ -1,3 +1,5 @@
+import headerCopy from '../copy/headerCopy'
+
 const style = {
   fontFamily: 'Morganite-SemiBold',
   // fontSize: '215pt',
@@ -12,8 +14,8 @@ const style = {
   marginBottom: 0
 }
 
-function Header(props) {
-  const text = props.language === 'en' ? `Website under construction` : `Strona w budowie`
+function Header({language}) {
+  const text = headerCopy[language]
 
   return (
     <div>

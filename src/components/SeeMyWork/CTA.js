@@ -1,3 +1,5 @@
+import seeMyWorkCopy from '../../copy/seeMyWorkCopy'
+
 const style = {
   display: 'flex',
   justifyContent: 'center',
@@ -17,10 +19,11 @@ const style = {
   color: '#191919'
 }
 
-function CTA() {
+function CTA({ language }) {
+  const text = seeMyWorkCopy.cta[language]
   return (
     <div>
-      <a style={style} href='https://www.behance.net/tekieniewska' target='_blank' rel="noreferrer">See my work</a>
+      <a style={style} href='https://www.behance.net/tekieniewska' target='_blank' rel="noreferrer">{text}</a>
     </div>
   ) 
 }

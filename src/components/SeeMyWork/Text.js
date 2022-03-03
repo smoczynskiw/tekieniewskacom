@@ -1,4 +1,4 @@
-const text = `Until then you can see my work here`
+import seeMyWorkCopy from '../../copy/seeMyWorkCopy'
 
 const style = {
   fontFamily: 'WorkSans-SemiBold',
@@ -9,7 +9,9 @@ const style = {
   textAlign: 'center'
 }
 
-function Text() {
+function Text({ language }) {
+  const text= seeMyWorkCopy.main[language]
+  
   return (
     <div>
       <h2 style={style}>{text}</h2>
