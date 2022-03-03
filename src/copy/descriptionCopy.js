@@ -5,12 +5,12 @@ const descriptionCopy = {
       I'm still working to make this website available. 
       You'll find here: my portfolio, more info about me and about how I can help you design-wise.`,
     pl: 
-      `Jestem designerką i ilustratorką. 
-      Nadal pracuję nad udostępnieniem mojej strony. Znajdziesz tu moje portfolio, więcej informacji o mnie i o tym, jak mogę pomóc ci w projektowaniu.`
+      `jestem graficzką i ilustratorką. Nadal pracuję nad nad tym, aby ta strona była dostępna. Znajdziesz tutaj: moje portfolio, więcej informacji o mnie i o tym jak
+      mogę Ci graficznie pomóc przy Twoim projekcie.`
   },
   bold: {
     en: `Hi there! My name is Gosia Tekieniewska, `,
-    pl: `Hej, nazywam się Gosia Tekieniewska. `
+    pl: `Cześć! Nazywam się Gosia Tekieniewska, `
   }
 }
 

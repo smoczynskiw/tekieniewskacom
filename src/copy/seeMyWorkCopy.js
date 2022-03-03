@@ -1,7 +1,7 @@
 const seeMyWorkCopy = {
   main: {
     en: `Until then you can see my work here`,
-    pl: `Póki co, możesz zobaczyć moje prace tu`
+    pl: `Do tego czasu, moje prace możesz zobaczyć tutaj`
   },
   cta: {
     en: `See my work`,
