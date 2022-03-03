@@ -1,9 +1,11 @@
 function LanguageButton(props) {
+  const { language, setLanguage, label } = props
+
   const style = {
     width: '58px',
     height: '58px',
     display: 'flex',
-    backgroundColor: props.isActive ? '#FF7122' : '#DADADA',
+    backgroundColor: language === label ? '#FF7122' : '#DADADA',
     borderRadius: '100%',
     justifyContent: 'center',
     alignItems: 'center',
@@ -11,12 +13,13 @@ function LanguageButton(props) {
     fontSize: '21px',
     fontFamily: 'WorkSans-SemiBold',
     letterSpacing: '-1.5px',
-    border: props.isActive ? 'none' : '2px solid #161616'
+    border: language === label ? 'none' : '2px solid #161616',
+    textTransform: 'uppercase'
   }
 
   return (
     <div>
-      <button style={style}>{props.language}</button>
+      <button onClick={() => setLanguage(label)} style={style}>{label}</button>
     </div>
   )
 }

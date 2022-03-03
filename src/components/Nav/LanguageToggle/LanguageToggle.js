@@ -7,11 +7,13 @@ const style = {
   marginBottom: '6.5px'
 }
 
-function LanguageToggle() {
+function LanguageToggle(props) {
+  const { language, setLanguage } = props
+
   return (
     <div style={style}>
-      <LanguageButton language='PL'/>
-      <LanguageButton language='EN' isActive/>
+      <LanguageButton language={language} setLanguage={setLanguage} label='pl'/>
+      <LanguageButton language={language} setLanguage={setLanguage} label='en'/>
     </div>
  )
 }

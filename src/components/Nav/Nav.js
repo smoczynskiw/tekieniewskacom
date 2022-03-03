@@ -2,7 +2,7 @@ import LanguageToggle from './LanguageToggle/LanguageToggle'
 import Logo from './Logo'
 
 const style = {
-  width: '100%',
+  width: '90vw',
   height: '8vh',
   display: 'flex',
   justifyContent: 'space-between',
@@ -20,12 +20,14 @@ const lineStyle = {
   marginRight: '32px'
 }
 
-function Nav() {
+function Nav(props) {
+  const { language, setLanguage } = props
+  
   return (
     <div style={style}>
       <Logo />
       <hr style={lineStyle}/>
-      <LanguageToggle />
+      <LanguageToggle language={language} setLanguage={setLanguage}/>
     </div>
   )
 }
