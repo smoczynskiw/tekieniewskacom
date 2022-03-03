@@ -1,6 +1,4 @@
-function LanguageButton(props) {
-  const { language, setLanguage, label } = props
-
+function LanguageButton({ language, setLanguage, label }) {
   const style = {
     width: '58px',
     height: '58px',

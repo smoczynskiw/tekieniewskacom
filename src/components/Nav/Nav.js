@@ -20,9 +20,7 @@ const lineStyle = {
   marginRight: '32px'
 }
 
-function Nav(props) {
-  const { language, setLanguage } = props
-  
+function Nav({ language, setLanguage }) {
   return (
     <div style={style}>
       <Logo />

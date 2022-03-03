@@ -14,7 +14,7 @@ const style = {
   marginBottom: 0
 }
 
-function Header({language}) {
+function Header({ language }) {
   const text = headerCopy[language]
 
   return (

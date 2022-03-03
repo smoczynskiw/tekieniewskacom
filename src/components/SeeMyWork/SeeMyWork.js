@@ -10,7 +10,7 @@ const style = {
   width: '650px'
 }
 
-function SeeMyWork({language}) {
+function SeeMyWork({ language }) {
   return (
     <div style={style}>
       <Text language={language}/>
