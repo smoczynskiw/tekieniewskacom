@@ -18,6 +18,11 @@ const StyledLink = styled.a`
   appearance: button;
   text-decoration: none;
   color: #191919;
+  transition: 0.2s ease-in-out background-color;
+  &:hover {
+    background-color: #ed671f;
+    transition: 0.2s ease-in-out background-color;
+  }
 `
 
 const CTA = ({ language }) => {

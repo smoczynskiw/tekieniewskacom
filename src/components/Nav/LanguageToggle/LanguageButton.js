@@ -15,7 +15,8 @@ const StyledButton = styled.button`
   border: ${({language, label}) => language === label ? 'none' : '2px solid #161616'};
   text-transform: uppercase;
   &:hover {
-    border: 2px solid #FF7122;
+    transition: 0.2s ease-in-out border;
+    border: ${({language, label}) => language !== label && '2px solid #FF7122'};
   }
 `
 
