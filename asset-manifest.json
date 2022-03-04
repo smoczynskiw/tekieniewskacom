@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tekieniewskacom/static/css/main.fdee2b1b.css",
-    "main.js": "/tekieniewskacom/static/js/main.aca299c4.js",
+    "main.js": "/tekieniewskacom/static/js/main.470c35d6.js",
     "static/js/787.239a567b.chunk.js": "/tekieniewskacom/static/js/787.239a567b.chunk.js",
     "static/media/WorkSans-SemiBold.ttf": "/tekieniewskacom/static/media/WorkSans-SemiBold.1e98db4eb705b586728e.ttf",
     "static/media/WorkSans-Regular.ttf": "/tekieniewskacom/static/media/WorkSans-Regular.bb287b894b27372d8ea7.ttf",
@@ -9,11 +9,11 @@
     "static/media/backgroundMain.png": "/tekieniewskacom/static/media/backgroundMain.e3f09c1bb0e2ec2996d1.png",
     "index.html": "/tekieniewskacom/index.html",
     "main.fdee2b1b.css.map": "/tekieniewskacom/static/css/main.fdee2b1b.css.map",
-    "main.aca299c4.js.map": "/tekieniewskacom/static/js/main.aca299c4.js.map",
+    "main.470c35d6.js.map": "/tekieniewskacom/static/js/main.470c35d6.js.map",
     "787.239a567b.chunk.js.map": "/tekieniewskacom/static/js/787.239a567b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fdee2b1b.css",
-    "static/js/main.aca299c4.js"
+    "static/js/main.470c35d6.js"
   ]
 }
