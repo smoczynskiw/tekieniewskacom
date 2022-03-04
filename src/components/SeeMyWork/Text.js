@@ -1,20 +1,21 @@
+import styled from 'styled-components'
 import seeMyWorkCopy from '../../copy/seeMyWorkCopy'
 
-const style = {
-  fontFamily: 'WorkSans-SemiBold',
-  fontSize: '23pt',
-  lineHeight: '36pt',
-  letterSpacing: '-2px',
-  width: '400px',
-  textAlign: 'center'
-}
+const StyledHeader = styled.h2`
+  font-family: WorkSans-SemiBold;
+  font-size: 23pt;
+  line-height: 36pt;
+  letter-spacing: -2px;
+  width: 400px;
+  text-align: center
+`
 
-function Text({ language }) {
-  const text= seeMyWorkCopy.main[language]
+const Text = ({ language }) => {
+  const text = seeMyWorkCopy.main[language]
   
   return (
     <div>
-      <h2 style={style}>{text}</h2>
+      <StyledHeader>{text}</StyledHeader>
     </div>
   )
 }

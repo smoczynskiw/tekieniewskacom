@@ -1,18 +1,18 @@
+import styled from 'styled-components'
 import Text from './Text'
 
-const style = {
-  display: 'flex',
-  justifyContent: 'space-between',
-  minWidth: '20%'
-}
+const contactInfo = [`tekieniewska@gmail.com`, `+48 889 331 839`]
 
-function Contact() {
-  return (
-    <div style={style}>
-      <Text text='tekieniewska@gmail.com' />
-      <Text text='+48 889 331 839' />
-    </div>
-  )
-}
+const StyledWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  min-width: 20%
+`
+
+const Contact = () => (
+  <StyledWrapper>
+    {contactInfo.map(el => <Text text={el}/>)}
+  </StyledWrapper>
+)
 
 export default Contact

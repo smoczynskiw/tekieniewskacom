@@ -1,19 +1,22 @@
+import styled from 'styled-components'
 import Link from './Link'
 
-const style = {
-  display: 'flex',
-  justifyContent: 'space-between',
-  minWidth: '20%'
-}
+const socials = [
+  { name: `Behance`, link: `https://www.behance.net/tekieniewska` },
+  { name: `Instagram`, link: `https://instagram.com/gosiatek` },
+  { name: `Facebook`, link: `https://www.facebook.com/gosia.tekieniewska` }
+]
 
-function SocialLinks() {
-  return (
-    <div style={style}>
-      <Link text='Behance' link={'https://www.behance.net/tekieniewska'}/>
-      <Link text='Instagram' link={'https://instagram.com/gosiatek'}/>
-      <Link text='Facebook' link={'https://www.facebook.com/gosia.tekieniewska/'}/>
-    </div>
-  )
-}
+const StyledWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  min-width: 20%;
+`
+
+const SocialLinks = () => (
+  <StyledWrapper>
+    {socials.map(social => <Link text={social.name} link={social.link} />)}
+  </StyledWrapper>
+)
 
 export default SocialLinks

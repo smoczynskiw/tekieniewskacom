@@ -1,16 +1,15 @@
+import styled from 'styled-components'
 import logo from '../../images/logo.png'
 
-const style = {
-  display: 'flex',
-  alignItems: 'center'
-}
+const StyledWrapper = styled.div`
+  display: flex;
+  align-items: center;
+`
 
-function Logo() {
-  return (
-    <div style={style}>
-      <img src={logo} alt='logo' />
-    </div>
-  )
-}
+const Logo = () => (
+  <StyledWrapper>
+    <img src={logo} alt='logo' />
+  </StyledWrapper>
+)
 
 export default Logo

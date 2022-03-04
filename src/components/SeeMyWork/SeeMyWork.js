@@ -1,23 +1,22 @@
+import styled from 'styled-components'
 import Text from './Text'
 import Arrow from './Arrow'
 import CTA from './CTA'
 
-const style = {
-  display: 'flex',
-  flexDirection: 'column',
-  justifyContent: 'space-around',
-  alignItems: 'center',
-  width: '650px'
-}
+const StyledWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 650px;
+`
 
-function SeeMyWork({ language }) {
-  return (
-    <div style={style}>
-      <Text language={language}/>
-      <Arrow />
-      <CTA language={language}/>
-    </div> 
-  )
-}
+const SeeMyWork = ({ language }) => (
+  <StyledWrapper>
+    <Text language={language}/>
+    <Arrow />
+    <CTA language={language}/>
+  </StyledWrapper> 
+)
 
 export default SeeMyWork
