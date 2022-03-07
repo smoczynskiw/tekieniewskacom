@@ -1,12 +1,15 @@
 import styled from 'styled-components'
 import seeMyWorkCopy from '../../copy/seeMyWorkCopy'
 
+const StyledWrapper = styled.div`
+  width: 20vw;
+`
+
 const StyledHeader = styled.h2`
   font-family: WorkSans-SemiBold;
-  font-size: 23pt;
+  font-size: 1.5vw;
   line-height: 36pt;
   letter-spacing: -2px;
-  width: 400px;
   text-align: center
 `
 
@@ -14,9 +17,9 @@ const Text = ({ language }) => {
   const text = seeMyWorkCopy.main[language]
   
   return (
-    <div>
+    <StyledWrapper>
       <StyledHeader>{text}</StyledHeader>
-    </div>
+    </StyledWrapper>
   )
 }
 

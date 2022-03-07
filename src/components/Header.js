@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 import headerCopy from '../copy/headerCopy'
 
+const StyledWrapper = styled.div`
+  height: 30vh;
+`
+
 const StyledHeader = styled.h1`
   font-family: Morganite-SemiBold;
   font-size: 15.2vw;
@@ -8,18 +12,18 @@ const StyledHeader = styled.h1`
   font-weight: 400;
   letter-spacing: 5.3px;
   text-transform: uppercase;
-  text-align: center;
+  text-align: ${props => props.language === 'pl' ? 'left' : 'center'};
   margin-top: 64px;
-  margin-bottom: 0
+  margin-bottom: 0;
 `
 
 const Header = ({ language }) => {
   const text = headerCopy[language]
 
   return (
-    <div>
-      <StyledHeader>{text}</StyledHeader>
-    </div>
+    <StyledWrapper>
+      <StyledHeader language={language}>{text}</StyledHeader>
+    </StyledWrapper>
   )
 }
 

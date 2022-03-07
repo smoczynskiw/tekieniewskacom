@@ -2,14 +2,15 @@ import styled from 'styled-components'
 import descriptionCopy from '../copy/descriptionCopy'
 
 const StyledWrapper = styled.div`
-  height: 15%;
-  width: 650px;
+  height: 15vh;
+  width: 32vw;
   margin-bottom: 50px;
 `
 
 const StyledText = styled.p`
   font-family: WorkSans-Regular;
-  font-size: 18pt;
+  fontSize: 18pt;
+  font-size: 1.2vw;
   letter-spacing: -2px;
   line-height: 26.4pt;
   padding-bottom: 45px;

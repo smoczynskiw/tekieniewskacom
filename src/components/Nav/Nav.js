@@ -8,7 +8,7 @@ const StyledWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: 0.5vh
+  margin-top: 0.5vh;
 `
 
 const StyledLine = styled.hr`

@@ -6,9 +6,10 @@ import CTA from './CTA'
 const StyledWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 650px;
+  width: 32vw;
+  height: 20vh;
 `
 
 const SeeMyWork = ({ language }) => (

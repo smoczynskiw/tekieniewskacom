@@ -11,7 +11,7 @@ const StyledWrapper = styled.div`
   border-top: 1px solid black;
   margin-top: 75px;
   padding: 40px 0;
-  height: 5%;
+  height: 5vh;
 `
 
 const StyledLine = styled.hr`

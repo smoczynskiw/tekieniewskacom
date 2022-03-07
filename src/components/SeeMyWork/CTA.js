@@ -5,13 +5,13 @@ const StyledLink = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 491px;
+  width: 25vw;
   height: 68px;
   background-color: #FF7122;
   border: none;
   border-radius: 50px;
   font-family: WorkSans-SemiBold;
-  font-size: 17pt;
+  font-size: 1.1vw;
   letter-spacing: 6px;
   text-transform: uppercase;
   margin-top: 35px;
