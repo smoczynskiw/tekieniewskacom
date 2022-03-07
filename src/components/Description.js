@@ -4,16 +4,15 @@ import descriptionCopy from '../copy/descriptionCopy'
 const StyledWrapper = styled.div`
   height: 15vh;
   width: 32vw;
-  margin-bottom: 50px;
 `
 
 const StyledText = styled.p`
   font-family: WorkSans-Regular;
-  fontSize: 18pt;
-  font-size: 1.2vw;
+  fontSize: 19pt;
+  font-size: 1.3vw;
   letter-spacing: -2px;
   line-height: 26.4pt;
-  padding-bottom: 45px;
+  padding-bottom: 3vh;
   border-bottom: 1px solid #191919;
   text-align: justify;
 `

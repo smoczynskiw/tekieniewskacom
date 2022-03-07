@@ -13,8 +13,7 @@ const StyledHeader = styled.h1`
   letter-spacing: 5.3px;
   text-transform: uppercase;
   text-align: ${props => props.language === 'pl' ? 'left' : 'center'};
-  margin-top: 64px;
-  margin-bottom: 0;
+  margin: 5vh 0;
 `
 
 const Header = ({ language }) => {

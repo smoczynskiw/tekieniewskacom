@@ -7,12 +7,11 @@ const StyledWrapper = styled.div`
   min-width: 120px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 6.5px
 `
 
 const LanguageToggle = ({ language, setLanguage }) => (
   <StyledWrapper>
-    {languages.map(lang => <LanguageButton language={language} setLanguage={setLanguage} label={lang}/>)}
+    {languages.map((lang, i) => <LanguageButton language={language} setLanguage={setLanguage} label={lang} key={i}/>)}
   </StyledWrapper>
 )
 

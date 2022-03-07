@@ -10,7 +10,8 @@ const StyledHeader = styled.h2`
   font-size: 1.5vw;
   line-height: 36pt;
   letter-spacing: -2px;
-  text-align: center
+  text-align: center;
+  margin: 2vh 0;
 `
 
 const Text = ({ language }) => {

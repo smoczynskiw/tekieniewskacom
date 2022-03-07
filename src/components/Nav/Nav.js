@@ -4,21 +4,19 @@ import Logo from './Logo'
 
 const StyledWrapper = styled.div`
   width: 90vw;
-  height: 8vh;
+  height: 6vh;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   margin-top: 0.5vh;
 `
 
 const StyledLine = styled.hr`
-  width: 1470px;
+  width: 80%;
   height: 3px;
   background-color: #191919;
   border: none;
-  margin-bottom: 34px;
-  margin-left: 32px;
-  margin-right: 32px
+  margin: 0 2.5vh;
 `
 
 const Nav = ({ language, setLanguage }) => (

@@ -15,7 +15,7 @@ const StyledWrapper = styled.div`
 
 const SocialLinks = () => (
   <StyledWrapper>
-    {socials.map(social => <Link text={social.name} link={social.link} />)}
+    {socials.map((social, i) => <Link text={social.name} link={social.link} key={i}/>)}
   </StyledWrapper>
 )
 

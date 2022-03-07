@@ -9,9 +9,7 @@ const StyledWrapper = styled.div`
   align-items: center;
   width: 90vw;
   border-top: 1px solid black;
-  margin-top: 75px;
-  padding: 40px 0;
-  height: 5vh;
+  height: 10vh;
 `
 
 const StyledLine = styled.hr`

@@ -4,6 +4,7 @@ import logo from '../../images/logo.png'
 const StyledWrapper = styled.div`
   display: flex;
   align-items: center;
+  align-self: flex-end;
 `
 
 const Logo = () => (
