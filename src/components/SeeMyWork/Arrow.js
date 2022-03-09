@@ -1,14 +1,9 @@
-import styled from 'styled-components'
 import arrow from '../../images/arrow.png'
 
-const StyledWrapper = styled.div`
-  margin: -15px;
-`
-
 const Arrow = () => (
-  <StyledWrapper>
+  <div>
     <img src={arrow} alt='arrow' />
-  </StyledWrapper>
+  </div>
 )
 
 export default Arrow

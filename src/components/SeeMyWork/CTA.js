@@ -6,7 +6,7 @@ const StyledLink = styled.a`
   justify-content: center;
   align-items: center;
   width: 25vw;
-  height: 68px;
+  height: 6vh;
   background-color: #FF7122;
   border: none;
   border-radius: 50px;
@@ -14,7 +14,6 @@ const StyledLink = styled.a`
   font-size: 1.1vw;
   letter-spacing: 6px;
   text-transform: uppercase;
-  margin-top: 35px;
   appearance: button;
   text-decoration: none;
   color: #191919;

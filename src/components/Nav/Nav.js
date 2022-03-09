@@ -16,7 +16,7 @@ const StyledLine = styled.hr`
   height: 3px;
   background-color: #191919;
   border: none;
-  margin: 0 2.5vh;
+  margin: 0 2.5vw;
 `
 
 const Nav = ({ language, setLanguage }) => (
