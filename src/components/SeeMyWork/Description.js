@@ -1,10 +1,5 @@
 import styled from 'styled-components'
-import descriptionCopy from '../copy/descriptionCopy'
-
-const StyledWrapper = styled.div`
-  height: 15vh;
-  width: 32vw;
-`
+import descriptionCopy from '../../copy/descriptionCopy'
 
 const StyledText = styled.p`
   font-family: WorkSans-Regular;
@@ -12,8 +7,6 @@ const StyledText = styled.p`
   font-size: 1.3vw;
   letter-spacing: -2px;
   line-height: 26.4pt;
-  padding-bottom: 3vh;
-  border-bottom: 1px solid #191919;
   text-align: justify;
 `
 
@@ -22,9 +15,9 @@ const Description = ({ language }) => {
   const text = descriptionCopy.main[language]
   
   return (
-    <StyledWrapper>
+    <div>
       <StyledText><strong>{textBold}</strong>{text}</StyledText>
-    </StyledWrapper>
+    </div>
   )
 }
 export default Description

@@ -1,4 +1,4 @@
-import UnderConstruction from './UnderConstruction'
+import UnderConstruction from './components/UnderConstruction'
 import backgroundMain from './images/backgroundMain.png'
 
 const style = {
