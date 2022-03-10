@@ -10,7 +10,7 @@ const StyledWrapper = styled.div`
 const StyledImage = styled.div`
   width: 40vw;
   height: 100%;
-  background-color: red;
+  background-color: green;
 `
 
 const Header = ({ language }) => {

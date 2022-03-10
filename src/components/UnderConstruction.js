@@ -2,7 +2,7 @@ import { useState } from 'react'
 import styled from 'styled-components'
 import Nav from './Nav/Nav'
 import Header from './Header'
-import SeeMyWork from './SeeMyWork/SeeMyWork'
+import SeeMyWork from './Bio/SeeMyWork/SeeMyWork'
 import Footer from './Footer/Footer'
 
 const StyledWrapper = styled.div`

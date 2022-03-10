@@ -3,8 +3,7 @@ import descriptionCopy from '../../copy/descriptionCopy'
 
 const StyledText = styled.p`
   font-family: WorkSans-Regular;
-  fontSize: 19pt;
-  font-size: 1.3vw;
+  font-size: ${({language}) => language === 'pl' ? '1.1vw' : '1.2vw'};
   letter-spacing: -2px;
   line-height: 26.4pt;
   text-align: justify;
@@ -16,7 +15,7 @@ const Description = ({ language }) => {
   
   return (
     <div>
-      <StyledText><strong>{textBold}</strong>{text}</StyledText>
+      <StyledText language={language}><strong>{textBold}</strong>{text}</StyledText>
     </div>
   )
 }

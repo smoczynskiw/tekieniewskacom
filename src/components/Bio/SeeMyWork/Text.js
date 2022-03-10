@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import seeMyWorkCopy from '../../copy/seeMyWorkCopy'
+import seeMyWorkCopy from '../../../copy/seeMyWorkCopy'
 
 const StyledWrapper = styled.div`
   width: 20vw;
@@ -8,7 +8,7 @@ const StyledWrapper = styled.div`
 const StyledHeader = styled.h2`
   font-family: WorkSans-SemiBold;
   font-size: 1.5vw;
-  line-height: 36pt;
+  line-height: 30pt;
   letter-spacing: -2px;
   text-align: center;
   margin: 0;

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import seeMyWorkCopy from '../../copy/seeMyWorkCopy'
+import seeMyWorkCopy from '../../../copy/seeMyWorkCopy'
 
 const StyledLink = styled.a`
   display: flex;
@@ -7,6 +7,7 @@ const StyledLink = styled.a`
   align-items: center;
   width: 25vw;
   height: 6vh;
+  margin-top: 0.6vh;
   background-color: #FF7122;
   border: none;
   border-radius: 50px;
