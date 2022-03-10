@@ -20,9 +20,14 @@ const StyledButton = styled.button`
   }
 `
 
+const handleClick = (setLanguage, label) => {
+  setLanguage(label)
+  window.sessionStorage.setItem('label', label)
+}
+
 const LanguageButton = ({ language, setLanguage, label }) => (
   <div>
-    <StyledButton label={label} language={language} onClick={() => setLanguage(label)}>{label}</StyledButton>
+    <StyledButton label={label} language={language} onClick={() => handleClick(setLanguage, label)}>{label}</StyledButton>
   </div>
 )
 

@@ -14,7 +14,7 @@ const StyledWrapper = styled.div`
 `
 
 function UnderConstruction() {
-  const [ language, setLanguage ] = useState('en')
+  const [ language, setLanguage ] = useState(window.sessionStorage.getItem('label') || 'en')
 
   return (
     <StyledWrapper>

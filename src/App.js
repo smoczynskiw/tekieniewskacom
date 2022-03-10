@@ -3,7 +3,7 @@ import backgroundMain from './images/backgroundMain.png'
 
 const style = {
   backgroundImage: `url(${backgroundMain})`,
-  backgroundSize: '100% 100%'
+  backgroundSize: 'cover'
 }
 
 function App() {
