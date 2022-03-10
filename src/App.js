@@ -2,7 +2,8 @@ import UnderConstruction from './components/UnderConstruction'
 import backgroundMain from './images/backgroundMain.png'
 
 const style = {
-  backgroundImage: `url(${backgroundMain})`
+  backgroundImage: `url(${backgroundMain})`,
+  backgroundSize: '100% 100%'
 }
 
 function App() {
