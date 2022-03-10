@@ -8,7 +8,7 @@ const StyledWrapper = styled.div`
 `
 
 const StyledImage = styled.img`
-  height: 55%;
+  height: 35%;
 `
 
 const Arrow = () => (
