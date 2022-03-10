@@ -5,7 +5,7 @@ const StyledText = styled.p`
   font-family: WorkSans-Regular;
   font-size: ${({language}) => language === 'pl' ? '1.1vw' : '1.2vw'};
   letter-spacing: -2px;
-  line-height: 26.4pt;
+  line-height: 22pt;
   text-align: justify;
 `
 

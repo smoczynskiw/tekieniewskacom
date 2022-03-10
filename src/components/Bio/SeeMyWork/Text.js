@@ -8,7 +8,7 @@ const StyledWrapper = styled.div`
 const StyledHeader = styled.h2`
   font-family: WorkSans-SemiBold;
   font-size: 1.3vw;
-  line-height: 30pt;
+  line-height: 25pt;
   letter-spacing: -1px;
   text-align: center;
   margin: 0;

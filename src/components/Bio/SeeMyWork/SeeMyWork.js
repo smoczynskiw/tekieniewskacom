@@ -10,6 +10,7 @@ const StyledWrapper = styled.div`
   align-items: center;
   width: 32vw;
   height: 25vh;
+  margin-top: 5vh;
 `
 
 const SeeMyWork = ({ language }) => (

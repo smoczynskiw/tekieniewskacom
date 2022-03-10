@@ -1,22 +1,23 @@
 import styled from 'styled-components'
+import headerPL from '../images/headerPL.svg'
+import headerEN from '../images/headerEN.svg'
 
 const StyledWrapper = styled.div`
-  height: 25vh;
-  width: 90vw;
   display: flex;
-  justify-content: ${({language}) => language === 'pl' ? 'flex-start' : 'center'}
+  justify-content: ${({ language }) => language === 'pl' ? 'flex-start' : 'center'};
+  width: ${({ language }) => language === 'pl' && '65%'};
 `
 
-const StyledImage = styled.div`
-  width: 40vw;
-  height: 100%;
-  background-color: green;
+const StyledImage = styled.img`
+  width: 100%;
 `
 
 const Header = ({ language }) => {
+  const headerImage = language === 'pl' ? headerPL : headerEN
+
   return (
     <StyledWrapper language={language}>
-      <StyledImage />
+      <StyledImage src={headerImage} alt='header'/>
     </StyledWrapper>
   )
 }
