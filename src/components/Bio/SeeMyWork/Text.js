@@ -2,14 +2,14 @@ import styled from 'styled-components'
 import seeMyWorkCopy from '../../../copy/seeMyWorkCopy'
 
 const StyledWrapper = styled.div`
-  width: 15vw;
+  width: 16vw;
 `
 
 const StyledHeader = styled.h2`
   font-family: WorkSans-SemiBold;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   line-height: 30pt;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   text-align: center;
   margin: 0;
 `

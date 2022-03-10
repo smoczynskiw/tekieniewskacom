@@ -7,6 +7,7 @@ const StyledLink = styled.a`
   align-items: center;
   width: 25vw;
   height: 5vh;
+  min-height: 50px;
   margin-top: 0.6vh;
   background-color: #FF7122;
   border: none;
