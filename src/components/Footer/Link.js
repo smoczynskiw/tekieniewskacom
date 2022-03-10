@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const StyledLink = styled.a`
   font-family: WorkSans-Regular;
-  font-size: 15pt;
+  font-size: 1vw;
   letter-spacing: -2px;
   color: #161616;
   margin: 0 8px;

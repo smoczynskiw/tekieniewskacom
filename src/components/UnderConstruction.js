@@ -2,7 +2,7 @@ import { useState } from 'react'
 import styled from 'styled-components'
 import Nav from './Nav/Nav'
 import Header from './Header'
-import SeeMyWork from './Bio/SeeMyWork/SeeMyWork'
+import Bio from './Bio/Bio'
 import Footer from './Footer/Footer'
 
 const StyledWrapper = styled.div`
@@ -20,7 +20,8 @@ function UnderConstruction() {
     <StyledWrapper>
       <Nav language={language} setLanguage={setLanguage}/>
       <Header language={language}/>
-      <SeeMyWork language={language}/>
+      {/* <SeeMyWork language={language}/> */}
+      <Bio language={language}/>
       <Footer language={language}/>
     </StyledWrapper>
   )

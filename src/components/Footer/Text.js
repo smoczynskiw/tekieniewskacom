@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const StyledText = styled.div`
   font-family: WorkSans-Regular;
-  font-size: 15pt;
+  font-size: 0.9vw;
   letter-spacing: -1px;
   & + & {
     margin-left: 8px;

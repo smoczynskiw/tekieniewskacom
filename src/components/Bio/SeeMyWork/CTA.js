@@ -6,7 +6,7 @@ const StyledLink = styled.a`
   justify-content: center;
   align-items: center;
   width: 25vw;
-  height: 6vh;
+  height: 5vh;
   margin-top: 0.6vh;
   background-color: #FF7122;
   border: none;
