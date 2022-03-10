@@ -8,16 +8,12 @@ const StyledWrapper = styled.div`
   width: ${({ language }) => language === 'pl' && '65%'};
 `
 
-const StyledImage = styled.img`
-  width: 100%;
-`
-
 const Header = ({ language }) => {
   const headerImage = language === 'pl' ? headerPL : headerEN
 
   return (
     <StyledWrapper language={language}>
-      <StyledImage src={headerImage} alt='header'/>
+      <img src={headerImage} alt='header'/>
     </StyledWrapper>
   )
 }

@@ -13,7 +13,7 @@ const StyledWrapper = styled.div`
   justify-content: space-between;
 `
 
-function UnderConstruction() {
+const UnderConstruction = () => {
   const [ language, setLanguage ] = useState(window.sessionStorage.getItem('language') || 'en')
 
   return (
@@ -21,7 +21,7 @@ function UnderConstruction() {
       <Nav language={language} setLanguage={setLanguage}/>
       <Header language={language}/>
       <Bio language={language}/>
-      <Footer language={language}/>
+      <Footer />
     </StyledWrapper>
   )
 }
