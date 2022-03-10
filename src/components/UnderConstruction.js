@@ -20,7 +20,6 @@ function UnderConstruction() {
     <StyledWrapper>
       <Nav language={language} setLanguage={setLanguage}/>
       <Header language={language}/>
-      {/* <SeeMyWork language={language}/> */}
       <Bio language={language}/>
       <Footer language={language}/>
     </StyledWrapper>
