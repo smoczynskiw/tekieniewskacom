@@ -5,6 +5,7 @@ import Logo from './Logo'
 const StyledWrapper = styled.div`
   width: 90vw;
   height: 6vh;
+  min-height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;

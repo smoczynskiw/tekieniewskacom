@@ -5,11 +5,16 @@ const StyledWrapper = styled.div`
   display: flex;
   align-items: center;
   align-self: flex-end;
+  height: 52%;
+`
+
+const StyledImage = styled.img`
+  height: 100%;
 `
 
 const Logo = () => (
   <StyledWrapper>
-    <img src={logo} alt='logo' />
+    <StyledImage src={logo} alt='logo' />
   </StyledWrapper>
 )
 
