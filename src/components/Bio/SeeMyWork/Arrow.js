@@ -12,7 +12,7 @@ const StyledImage = styled.img`
 `
 
 const Arrow = () => (
-  <StyledWrapper style={{ height: '100%', display: 'flex', alignItems: 'center'}}>
+  <StyledWrapper>
     <StyledImage src={arrow} alt='arrow' />
   </StyledWrapper>
 )
