@@ -9,6 +9,7 @@ const StyledWrapper = styled.div`
   
   @media(max-width: 425px) {
     background-image: url(${backgroundMobile})
+    height: -webkit-fill-available;
   }
 `
 

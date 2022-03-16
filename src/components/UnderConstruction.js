@@ -15,6 +15,7 @@ const StyledWrapper = styled.div`
   
   @media(max-width: ${breakpoint}) {
     min-height: -webkit-fill-available;
+    min-height: 100vh;
     align-items: center;
     margin: 0 10vw;
   }
