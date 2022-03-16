@@ -11,6 +11,11 @@ const StyledWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
+  @media(max-width: 425px) {
+    align-items: center;
+    margin: 0 10vw;
+  }
 `
 
 const UnderConstruction = () => {

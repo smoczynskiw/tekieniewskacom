@@ -26,3 +26,8 @@ code {
   font-family: 'WorkSans-Regular';
   src: local('WorkSans-Regular'), url(./fonts/WorkSans-Regular.ttf) format('truetype')
 }
+
+@font-face {
+  font-family: 'WorkSans-Light';
+  src: local('WorkSans-Light'), url(./fonts/WorkSans-Light.ttf) format('truetype')
+}

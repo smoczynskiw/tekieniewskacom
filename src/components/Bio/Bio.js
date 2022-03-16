@@ -9,6 +9,10 @@ const StyledWrapper = styled.div`
   align-items: center;
   width: 32vw;
   height: 45vh;
+  
+  @media(max-width: 425px) {
+    width: 100%;
+  }
 `
 
 const StyledLine = styled.hr`
@@ -17,6 +21,11 @@ const StyledLine = styled.hr`
   background-color: #191919;
   margin: 0 0 1.5vh 0;
   border: none;
+
+  @media(max-width: 425px) {
+    margin-top: 2vh;
+    width: 100%;
+  }
 `
 
 const Bio = ({ language }) => (

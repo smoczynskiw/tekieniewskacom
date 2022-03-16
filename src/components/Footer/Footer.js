@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import Contact from './Contact'
-import Text from './Text'
+import Copyright from './Copyright'
 import SocialLinks from './SocialLinks'
 
 const StyledWrapper = styled.div`
@@ -10,6 +10,13 @@ const StyledWrapper = styled.div`
   width: 90vw;
   border-top: 1px solid black;
   height: 10vh;
+  
+  @media(max-width: 425px) {
+    align-items: flex-end;
+    height: 13.7vh;
+    margin-bottom: 2vh;
+    border: none;
+  }
 `
 
 const StyledLine = styled.hr`
@@ -17,6 +24,7 @@ const StyledLine = styled.hr`
   height: 1px;
   background-color: #191919;
   border: none;
+
   @media (max-width: 1690px) {
     display: none
   }
@@ -26,7 +34,7 @@ const Footer = () => (
   <StyledWrapper>
     <Contact />
     <StyledLine/>
-    <Text text={'© 2022 Gosia Tekieniewska. All rights reserved'} />
+    <Copyright text={'© 2022 Gosia Tekieniewska. All rights reserved'} />
     <StyledLine/>
     <SocialLinks />
   </StyledWrapper>

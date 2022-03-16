@@ -7,6 +7,12 @@ const StyledWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   min-width: 20vw;
+
+  @media(max-width: 425px) {
+    height: 40%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 `
 
 const Contact = () => (

@@ -6,6 +6,10 @@ const StyledWrapper = styled.div`
   align-items: center;
   align-self: flex-end;
   height: 52%;
+
+  @media(max-width: 425px) {
+    align-self: center;
+  }
 `
 
 const StyledImage = styled.img`

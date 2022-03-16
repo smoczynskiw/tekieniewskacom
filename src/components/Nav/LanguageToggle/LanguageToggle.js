@@ -7,6 +7,10 @@ const StyledWrapper = styled.div`
   min-width: 120px;
   display: flex;
   justify-content: space-between;
+
+  @media(max-width: 425px) {
+    min-width: 90px;
+  }
 `
 
 const LanguageToggle = ({ language, setLanguage }) => (

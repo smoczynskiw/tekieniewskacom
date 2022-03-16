@@ -18,6 +18,12 @@ const StyledButton = styled.button`
     transition: 0.2s ease-in-out border;
     border: ${({language, label}) => language !== label && '2px solid #FF7122'};
   }
+
+  @media(max-width: 425px) {
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+  }
 `
 
 const handleClick = (setLanguage, label) => {

@@ -14,6 +14,14 @@ const StyledLink = styled.a`
     color: #FF7122;
     transition: 0.1s ease-in-out;
   }
+
+  @media(max-width: 425px) {
+    font-family: WorkSans-Light;
+    color: #DADADA;
+    font-size: 4vw;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+  }
 `
 
 const Link = ({text, link}) => (

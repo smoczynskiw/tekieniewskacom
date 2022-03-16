@@ -9,6 +9,10 @@ const StyledWrapper = styled.div`
 
 const StyledImage = styled.img`
   height: 35%;
+
+  @media(max-width: 425px) {
+    height: 55%;
+  }
 `
 
 const Arrow = () => (

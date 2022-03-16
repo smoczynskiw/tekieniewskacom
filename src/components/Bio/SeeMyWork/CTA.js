@@ -24,6 +24,12 @@ const StyledLink = styled.a`
     background-color: #ed671f;
     transition: 0.2s ease-in-out background-color;
   }
+
+  @media(max-width: 425px) {
+    width: 73vw;
+    font-size: 5vw;
+    letter-spacing: 1px;
+  }
 `
 
 const CTA = ({ language }) => {

@@ -11,6 +11,12 @@ const StyledWrapper = styled.div`
   width: 32vw;
   height: 25vh;
   margin-top: 5vh;
+
+  @media(max-width: 425px) {
+    height: 20vh;
+    margin-top: 0;
+    width: 100%;
+  }
 `
 
 const SeeMyWork = ({ language }) => (

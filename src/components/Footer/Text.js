@@ -7,6 +7,13 @@ const StyledText = styled.div`
   & + & {
     margin-left: 8px;
   }
+
+  @media(max-width: 425px){
+    font-family: WorkSans-Light;
+    font-size: 4vw;
+    color: #DADADA;
+    letter-spacing: -0.5px;
+  }
 `
 
 const Text = ({ text }) => (

@@ -3,6 +3,10 @@ import seeMyWorkCopy from '../../../copy/seeMyWorkCopy'
 
 const StyledWrapper = styled.div`
   width: 16vw;
+  
+  @media(max-width: 425px) {
+    width: 80vw;
+  }
 `
 
 const StyledHeader = styled.h2`
@@ -12,6 +16,10 @@ const StyledHeader = styled.h2`
   letter-spacing: -1px;
   text-align: center;
   margin: 0;
+
+  @media(max-width: 425px) {
+    font-size: 6vw;
+  }
 `
 
 const Text = ({ language }) => {

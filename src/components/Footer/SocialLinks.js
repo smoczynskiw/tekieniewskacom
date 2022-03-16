@@ -11,6 +11,12 @@ const StyledWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   min-width: 20%;
+
+  @media(max-width: 425px) {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 64%;
+  }
 `
 
 const SocialLinks = () => (

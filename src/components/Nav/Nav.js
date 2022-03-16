@@ -3,7 +3,7 @@ import LanguageToggle from './LanguageToggle/LanguageToggle'
 import Logo from './Logo'
 
 const StyledWrapper = styled.div`
-  width: 90vw;
+  width: 100%;
   height: 6vh;
   min-height: 60px;
   display: flex;
@@ -18,6 +18,10 @@ const StyledLine = styled.hr`
   background-color: #191919;
   border: none;
   margin: 0 2.5vw;
+
+  @media(max-width: 425px) {
+    display: none;
+  }
 `
 
 const Nav = ({ language, setLanguage }) => (
