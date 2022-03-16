@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { breakpoint } from '../../../consts'
 
 const StyledButton = styled.button`
   width: 58px;
@@ -19,7 +20,7 @@ const StyledButton = styled.button`
     border: ${({language, label}) => language !== label && '2px solid #FF7122'};
   }
 
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     width: 40px;
     height: 40px;
     font-size: 17px;

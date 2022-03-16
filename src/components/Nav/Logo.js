@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import logo from '../../images/logo.png'
+import { breakpoint } from '../../consts'
 
 const StyledWrapper = styled.div`
   display: flex;
@@ -7,7 +8,7 @@ const StyledWrapper = styled.div`
   align-self: flex-end;
   height: 52%;
 
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     align-self: center;
   }
 `

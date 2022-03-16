@@ -4,6 +4,7 @@ import Nav from './Nav/Nav'
 import Header from './Header'
 import Bio from './Bio/Bio'
 import Footer from './Footer/Footer'
+import { breakpoint } from '../consts'
 
 const StyledWrapper = styled.div`
   margin: 0 5vw;
@@ -12,7 +13,7 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   justify-content: space-between;
   
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     align-items: center;
     margin: 0 10vw;
   }

@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import LanguageToggle from './LanguageToggle/LanguageToggle'
 import Logo from './Logo'
+import { breakpoint } from '../../consts'
 
 const StyledWrapper = styled.div`
   width: 100%;
@@ -19,7 +20,7 @@ const StyledLine = styled.hr`
   border: none;
   margin: 0 2.5vw;
 
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     display: none;
   }
 `

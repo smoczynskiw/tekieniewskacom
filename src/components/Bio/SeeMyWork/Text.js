@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 import seeMyWorkCopy from '../../../copy/seeMyWorkCopy'
+import { breakpoint } from '../../../consts'
 
 const StyledWrapper = styled.div`
   width: 16vw;
   
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     width: 80vw;
   }
 `
@@ -17,7 +18,7 @@ const StyledHeader = styled.h2`
   text-align: center;
   margin: 0;
 
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     font-size: 6vw;
   }
 `

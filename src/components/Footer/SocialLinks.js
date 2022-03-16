@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Link from './Link'
+import { breakpoint } from '../../consts'
 
 const socials = [
   { name: `Behance`, link: `https://www.behance.net/tekieniewska` },
@@ -12,7 +13,7 @@ const StyledWrapper = styled.div`
   justify-content: space-between;
   min-width: 20%;
 
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     flex-direction: column;
     justify-content: space-between;
     height: 64%;

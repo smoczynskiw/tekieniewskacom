@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import arrow from '../../../images/arrow.png'
+import { breakpoint } from '../../../consts'
 
 const StyledWrapper = styled.div`
   height: 100%;
@@ -10,7 +11,7 @@ const StyledWrapper = styled.div`
 const StyledImage = styled.img`
   height: 35%;
 
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     height: 55%;
   }
 `

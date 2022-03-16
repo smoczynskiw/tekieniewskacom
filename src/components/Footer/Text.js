@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { breakpoint } from '../../consts'
 
 const StyledText = styled.div`
   font-family: WorkSans-Regular;
@@ -8,7 +9,7 @@ const StyledText = styled.div`
     margin-left: 8px;
   }
 
-  @media(max-width: 425px){
+  @media(max-width: ${breakpoint}){
     font-family: WorkSans-Light;
     font-size: 4vw;
     color: #DADADA;

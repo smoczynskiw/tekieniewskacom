@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import SeeMyWork from './SeeMyWork/SeeMyWork'
 import Description from './Description'
+import { breakpoint } from '../../consts'
 
 const StyledWrapper = styled.div`
   display: flex;
@@ -10,7 +11,7 @@ const StyledWrapper = styled.div`
   width: 32vw;
   height: 45vh;
   
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     width: 100%;
   }
 `
@@ -22,7 +23,7 @@ const StyledLine = styled.hr`
   margin: 0 0 1.5vh 0;
   border: none;
 
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     margin-top: 2vh;
     width: 100%;
   }

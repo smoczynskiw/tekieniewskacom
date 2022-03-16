@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import Contact from './Contact'
 import Copyright from './Copyright'
 import SocialLinks from './SocialLinks'
+import { breakpoint } from '../../consts'
 
 const StyledWrapper = styled.div`
   display: flex;
@@ -11,7 +12,7 @@ const StyledWrapper = styled.div`
   border-top: 1px solid black;
   height: 10vh;
   
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     align-items: flex-end;
     height: 13.7vh;
     margin-bottom: 2vh;

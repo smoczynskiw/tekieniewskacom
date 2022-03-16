@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import LanguageButton from './LanguageButton'
+import { breakpoint } from '../../../consts'
 
 const languages = [`pl`, `en`]
 
@@ -8,7 +9,7 @@ const StyledWrapper = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     min-width: 90px;
   }
 `

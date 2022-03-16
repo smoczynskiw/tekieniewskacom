@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { breakpoint } from '../../consts'
 
 const StyledLink = styled.a`
   font-family: WorkSans-Regular;
@@ -15,7 +16,7 @@ const StyledLink = styled.a`
     transition: 0.1s ease-in-out;
   }
 
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     font-family: WorkSans-Light;
     color: #DADADA;
     font-size: 4vw;

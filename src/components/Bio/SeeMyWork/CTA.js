@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import seeMyWorkCopy from '../../../copy/seeMyWorkCopy'
+import { breakpoint } from '../../../consts'
 
 const StyledLink = styled.a`
   display: flex;
@@ -25,7 +26,7 @@ const StyledLink = styled.a`
     transition: 0.2s ease-in-out background-color;
   }
 
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     width: 73vw;
     font-size: 5vw;
     letter-spacing: 1px;

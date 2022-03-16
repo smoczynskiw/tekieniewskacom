@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 import descriptionCopy from '../../copy/descriptionCopy'
+import { breakpoint } from '../../consts'
 
 const StyledWrapper = styled.div`
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     width: 100%;
   }
 `
@@ -14,7 +15,7 @@ const StyledText = styled.p`
   line-height: 22pt;
   text-align: justify;
   
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     font-size: ${({language}) => language === 'pl' ? '4vw' : '4vw'};
     letter-spacing: -1px;
     line-height: 18pt;

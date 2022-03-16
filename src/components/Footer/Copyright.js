@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 import Text from './Text'
+import { breakpoint } from '../../consts'
 
 const StyledWrapper = styled.div`
-  @media(max-width: 425px) {
+  @media(max-width: ${breakpoint}) {
     display: none;
   }
 `
