@@ -6,6 +6,10 @@ const StyledWrapper = styled.div`
   @media(max-width: ${breakpoint}) {
     width: 100%;
   }
+
+  @media(max-width: 375px) {
+    display: none;
+  }
 `
 
 const StyledText = styled.p`
@@ -21,6 +25,10 @@ const StyledText = styled.p`
     font-size: ${({language}) => language === 'pl' ? '3.5vw' : '4vw'};
     letter-spacing: -1px;
     line-height: 18pt;
+  }
+
+  @media(max-width: 375px) {
+    display: none;
   }
 `
 

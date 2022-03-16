@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import arrow from '../../../images/arrow.png'
-import { breakpoint } from '../../../consts'
 
 const StyledWrapper = styled.div`
   height: 100%;

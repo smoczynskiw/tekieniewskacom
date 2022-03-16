@@ -12,12 +12,18 @@ const StyledWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+
   @media(max-width: ${breakpoint}) {
-    min-height: -webkit-fill-available;
-    min-height: 100vh;
     align-items: center;
     margin: 0 10vw;
+  }
+
+  @media(max-width: 414px) {
+    height: 896px;
+  }
+
+  @media(max-width: 375px) {
+    height: 667px;
   }
 `
 

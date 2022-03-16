@@ -17,7 +17,6 @@ const StyledLink = styled.a`
   font-size: 1.1vw;
   letter-spacing: 6px;
   text-transform: uppercase;
-  appearance: button;
   text-decoration: none;
   color: #191919;
   transition: 0.2s ease-in-out background-color;

@@ -18,6 +18,10 @@ const StyledWrapper = styled.div`
     margin-top: 0;
     width: 100%;
   }
+
+  @media(max-width: 375px) {
+    margin-top: 50px;
+  }
 `
 
 const SeeMyWork = ({ language }) => (
