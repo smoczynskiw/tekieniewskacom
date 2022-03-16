@@ -32,7 +32,6 @@ const StyledLine = styled.hr`
 const Bio = ({ language }) => (
   <StyledWrapper>
     <Description language={language} />
-    <StyledLine />
     <SeeMyWork language={language}/>
   </StyledWrapper> 
 )

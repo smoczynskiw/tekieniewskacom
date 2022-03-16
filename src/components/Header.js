@@ -11,7 +11,8 @@ const StyledWrapper = styled.div`
   width: ${({ language }) => language === 'pl' && '65%'};
 
   @media(max-width: ${breakpoint}) {
-    width: 100%;
+    width: ${({language}) => language === 'pl' ? '75%' : '100%'};
+    align-self: flex-start;
   }
 `
 

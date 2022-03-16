@@ -21,7 +21,6 @@ const StyledLink = styled.a`
     color: #DADADA;
     font-size: 4vw;
     letter-spacing: -0.5px;
-    text-decoration: none;
   }
 `
 

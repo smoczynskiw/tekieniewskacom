@@ -14,9 +14,11 @@ const StyledText = styled.p`
   letter-spacing: -2px;
   line-height: 22pt;
   text-align: justify;
+  border-bottom: 1px solid #191919;
+  padding-bottom: 5vh;
   
   @media(max-width: ${breakpoint}) {
-    font-size: ${({language}) => language === 'pl' ? '4vw' : '4vw'};
+    font-size: ${({language}) => language === 'pl' ? '3.5vw' : '4vw'};
     letter-spacing: -1px;
     line-height: 18pt;
   }
