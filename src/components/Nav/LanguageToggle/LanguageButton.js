@@ -12,6 +12,7 @@ const StyledButton = styled.button`
   cursor: pointer;
   font-size: 21px;
   font-family: WorkSans-SemiBold;
+  color: #161616;
   letter-spacing: -1.5px;
   border: ${({language, label}) => language === label ? 'none' : '2px solid #161616'};
   text-transform: uppercase;
