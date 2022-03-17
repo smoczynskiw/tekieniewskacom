@@ -30,7 +30,7 @@ const StyledButton = styled.button`
 
 const handleClick = (setLanguage, label) => {
   setLanguage(label)
-  window.sessionStorage.setItem('language', label)
+  window.localStorage.setItem('language', label)
 }
 
 const LanguageButton = ({ language, setLanguage, label }) => (
