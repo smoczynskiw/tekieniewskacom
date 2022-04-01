@@ -20,10 +20,12 @@ const StyledImageWeb = styled.img`
   @media(max-width: ${breakpoint}) {
     display: none;
   }
+  width: 100%;
 `
 
 const StyledImageMobile = styled.img`
   display: none;
+  width: 100%;
   @media(max-width: ${breakpoint}) {
     display: block;
   }

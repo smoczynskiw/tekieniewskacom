@@ -10,7 +10,7 @@ const StyledWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 32vw;
-  height: 25vh;
+  height: 23vh;
   margin-top: 5vh;
 
   @media(max-width: ${breakpoint}) {
